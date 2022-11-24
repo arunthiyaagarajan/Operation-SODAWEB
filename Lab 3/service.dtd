@@ -1,0 +1,8 @@
+<!ELEMENT sercice (vehicle, v_type, brand, model, year, reg_no, service_type)>
+<!ELEMENT vehicle (#PCDATA)>
+<!ELEMENT v_type (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT reg_no (#PCDATA)>
+<!ELEMENT service_type (#PCDATA)>

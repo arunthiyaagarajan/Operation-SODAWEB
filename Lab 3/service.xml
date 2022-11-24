@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/service.xsl" type="text/xsl"?>
+<?xml-model href="service.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- <!DOCTYPE service SYSTEM "./service.dtd"> -->
+
+<!-- ASS - SERVICE MODULE-->
+<service>
+        <vehicle>
+            <v_type>Two-Wheeler</v_type>
+            <brand>Royal Enfield</brand>
+            <model>Classic 650</model>
+            <year>2022</year>
+            <reg_no>TN66MD2025</reg_no>
+            <service_type>General Service</service_type>
+        </vehicle>
+        
+        <vehicle>
+            <v_type>Two-Wheeler</v_type>
+            <brand>Royal Enfield</brand>
+            <model>Classic 350</model>
+            <year>2019</year>
+            <reg_no>TN68AD2754</reg_no>
+            <service_type>Oil Leak</service_type>
+        </vehicle>
+        
+        <vehicle>
+            <v_type>Two-Wheeler</v_type>
+            <brand>Scooty</brand>
+            <model>Zest</model>
+            <year>2016</year>
+            <reg_no>TN68A2075</reg_no>
+            <service_type>Tyre Replacement</service_type>
+        </vehicle>
+        
+        <vehicle>
+            <v_type>Four-Wheeler</v_type>
+            <brand>Hyundai</brand>
+            <model>Creta</model>
+            <year>2020</year>
+            <reg_no>TN68AD2758</reg_no>
+            <service_type>Repainting</service_type>
+        </vehicle>
+        
+        <vehicle>
+            <v_type>Four-Wheeler</v_type>
+            <brand>Toyata</brand>
+            <model>Inova Crysta</model>
+            <year>2019</year>
+            <reg_no>TN45SF5858</reg_no>
+            <service_type>Seats Repair</service_type>
+        </vehicle>
+        
+        <vehicle>
+            <v_type>Four-Wheeler</v_type>
+            <brand>Mahindra</brand>
+            <model>Thar</model>
+            <year>2021</year>
+            <reg_no>TN93CT9966</reg_no>
+            <service_type>General Service</service_type>
+        </vehicle>   
+</service>

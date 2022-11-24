@@ -1,0 +1,29 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="service">
+    <xs:annotation>
+        <xs:documentation> &lt;!DOCTYPE service SYSTEM "./">  ASS - SERVICE MODULE</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="vehicle" maxOccurs="unbounded" minOccurs="0">
+            <xs:complexType>
+            <xs:sequence>
+                <xs:element name="v_type">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="30"></xs:maxLength>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element type="xs:string" name="brand"/>
+                <xs:element type="xs:string" name="model"/>
+                <xs:element type="xs:short" name="year"/>
+                <xs:element type="xs:string" name="reg_no"/>
+                <xs:element type="xs:string" name="service_type"/>
+            </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+</xs:schema>
